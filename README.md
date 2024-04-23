@@ -95,6 +95,7 @@ f. download button below the graph allow the user to download graph in inmage fo
 ![Screenshot 2024-04-23 162336](https://github.com/TanmayTanmayGarg/electoral-bond/assets/143330134/1193a113-878e-47e9-9f2b-52e724adcaee)
 ![bar_chart (2)](https://github.com/TanmayTanmayGarg/electoral-bond/assets/143330134/20801220-7e07-4dac-9d2c-82cf8b0e36ae)
 
-3. I have bar plot which shows which company received how many bonds value in rupees.
+3. I have bar plot which shows which company received how many bonds value in rupees on home page of web using chart.js 
+![Screenshot 2024-04-23 162845](https://github.com/TanmayTanmayGarg/electoral-bond/assets/143330134/79db86dd-134c-4729-bc09-f92b157ab0e9)
 
     

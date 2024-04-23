@@ -36,7 +36,7 @@
 
   Now MySQL part has compleated.
 
-2. In your destop create a folder a folder, in my case I have named it as 'Dcc Assignment 4'.
+2. In your destop create a folder a folder, in my case I have named it as 'Dcc Assignment 4', move both pdf files (redumption details and Purchases details) here .
 
   2.1. Open this folder in vs code.
 

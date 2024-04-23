@@ -44,18 +44,20 @@
 
   2.3. run these command on terminal first run: 'pip install pip -D' and  then run 'pip install Flask Flask-MySQLdb' also run 'pip install matplotlib'.
 
-  2.4. in this create a folder name 'templates'.
+  2.4 make new python file naming pdf_converter.py. and by this you can convert both pdf files into csv.
 
-    2.4.1. In this folder create a new file named 'index.html' and put down the code I have provided in 'index.html' file in 'templates' folder and save it (ctrl+s).
-    
-    2.4.2. In this folder also create a new file named 'search_results.html' and put down the code I have provided in 'search_results.html' file in 'templates' folder and save it (ctrl+s).
-    
-  2.5.  create new file named 'app.py'.
+  2.5. in this create a folder name 'templates'.
 
-    2.3.1. In this file put down the code I have provided in 'app.py' and save it (ctrl+s). But make sure to replace MYSQL_PASSWORD and MYSQL_USER. 
+    2.5.1. In this folder create a new file named 'index.html' and put down the code I have provided in 'index.html' file in 'templates' folder and save it (ctrl+s).
+    
+    2.5.2. In this folder also create a new file named 'search_results.html' and put down the code I have provided in 'search_results.html' file in 'templates' folder and save it (ctrl+s).
+    
+  2.6.  create new file named 'app.py'.
+
+    2.6.1. In this file put down the code I have provided in 'app.py' and save it (ctrl+s). But make sure to replace MYSQL_PASSWORD and MYSQL_USER. 
   ![image](https://github.com/TanmayTanmayGarg/electoral-bond/assets/143330134/628b0301-382e-4c2c-b6b1-f665296ee91e)
 
-  2.6 Run this python file. you will see a link, like I have underlined.
+  2.7 Run this python file. you will see a link, like I have underlined.
 ![image](https://github.com/TanmayTanmayGarg/electoral-bond/assets/143330134/45304a9b-b6d9-4da4-bd06-7ce53f8569e3)
 
 3. The Web-page will look like this.

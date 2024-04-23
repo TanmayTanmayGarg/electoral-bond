@@ -73,6 +73,8 @@
 - **Bar Chart Visualization**: Visualize the total amount of donations to all parties.
 - **Download Button**: To download the bar plot shown 
 - **About section**: It is on top shows the roll number and name.
+  ![Screenshot 2024-04-23 235257](https://github.com/TanmayTanmayGarg/electoral-bond/assets/143330134/adc76704-d0eb-429f-8224-2f6b111a2f70)
+
 - **Donor Information**: write the political party name and see which companies have donated to it.
   
 e1. you have to enter the bond number and it will give out all purchase details and redumption details associate with it.

@@ -42,7 +42,7 @@
 
   2.2. Go to the extension secton and make sure that python, html, live server, python debugger are installed and enabled. 
 
-  2.3. run these command on terminal first run: 'pip install pip -D' and  then run 'pip install Flask Flask-MySQLdb'
+  2.3. run these command on terminal first run: 'pip install pip -D' and  then run 'pip install Flask Flask-MySQLdb' also run 'pip install matplotlib'.
 
   2.4. in this create a folder name 'templates'.
 

@@ -1,6 +1,6 @@
 1. In this project we are going to work on Electoral bond data.
    These are two files of purchase details([EB_Purchase_Details.pdf](https://github.com/TanmayTanmayGarg/electoral-bond/files/15071520/EB_Purchase_Details.pdf)) and redumption details([EB_Redemption_Details.pdf](https://github.com/TanmayTanmayGarg/electoral-bond/files/15071524/EB_Redemption_Details.pdf)).
-   we will convert these files into csv by pdf_to_csv.py code which use Fitz library. 
+   we will convert these files into csv by 'pdf_converter.py' code which use Fitz library. 
 
    We will use MySQL Workbench to create schema named electoral_bond.
    ![Screenshot 2024-04-23 103541](https://github.com/TanmayTanmayGarg/electoral-bond/assets/143330134/f52ffea8-0929-4972-8baf-405297410036)

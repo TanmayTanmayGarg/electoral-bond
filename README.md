@@ -33,6 +33,9 @@
   Refresh the schema and these two files now be available in the tabels section.
   ![Screenshot 2024-04-23 110224](https://github.com/TanmayTanmayGarg/electoral-bond/assets/143330134/3c651a16-d5b6-4d88-b388-f12a66f13177)
   ![Screenshot 2024-04-23 110316](https://github.com/TanmayTanmayGarg/electoral-bond/assets/143330134/26f60c89-62d6-4727-bfd5-d469e6804abf)
+  ![Screenshot 2024-04-23 221847](https://github.com/TanmayTanmayGarg/electoral-bond/assets/143330134/63d3f0dd-1548-495f-948b-b8294ea31655)
+  ![Screenshot 2024-04-23 221908](https://github.com/TanmayTanmayGarg/electoral-bond/assets/143330134/c0a22555-1447-4b6d-8309-a6c09abe3fdf)
+
 
   Now MySQL part has compleated.
 

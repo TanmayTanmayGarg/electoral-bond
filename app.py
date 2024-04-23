@@ -17,6 +17,11 @@ mysql = MySQL(app)
 def index():
     return render_template('index.html')
 
+@app.route('/about')
+def about():
+    return ('Name: Tanmay Kumar Garg,' 
+            'Roll Number: 23110330')
+
 @app.route('/search', methods=['POST'])
 def search():
     if request.method == 'POST':
@@ -25,9 +30,9 @@ def search():
         return render_template('search_results.html', results_purchase=results_purchase, results_redemption=results_redemption)
 def search(bond_number):
     cursor = mysql.connection.cursor()
-    cursor.execute("SELECT * FROM eb_purchase_details WHERE `Bond Number` = %s OR `Name of the Purchaser` = %s OR `Reference No (URN)` = %s", (bond_number, bond_number, bond_number))
+    cursor.execute("SELECT * FROM eb_purchase_details WHERE `Bond Number` = %s OR `Name of the Purchaser` = %s OR `Reference No (URN)` = %s OR `Issue Teller` = %s", (bond_number, bond_number, bond_number, bond_number))
     results_purchase = cursor.fetchall()
-    cursor.execute("SELECT * FROM eb_redemption_details WHERE `Bond Number` = %s OR `Name of the Political Party` = %s OR `Pay Branch Code` = %s", (bond_number, bond_number, bond_number))
+    cursor.execute("SELECT * FROM eb_redemption_details WHERE `Bond Number` = %s OR `Name of the Political Party` = %s OR `Pay Branch Code` = %s OR `Pay Teller` = %s", (bond_number, bond_number, bond_number, bond_number))
     results_redemption = cursor.fetchall()
     cursor.close()
     return results_purchase , results_redemption
